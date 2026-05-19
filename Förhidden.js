@@ -22,4 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/*/ jag tyckte förhidden lät roligt, så jag döpte javascript till det /*/
+/*/ jag tyckte förhidden lät roligt, så jag döpte javascript till det
+    En faktiskt värdeful kommentar är att jag basically grabbade detta från ett äldre projekt 
+    men uppdaterade mina variabler för att passa.
+/*/
