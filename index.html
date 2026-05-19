@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Förhidden.js" class="js">
+    <title>TextHiddenText</title>
+    <script src="Förhidden.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <textarea name="första" id="1"></textarea>
-    <div class="hidden"></div>
-
-    <button class="btn"></button>
+    <form id="formulär">
+        <textarea id="textomrade" name="text" placeholder="Skriv här för att komma till israel..." class="shown"></textarea>
+        <input type="hidden" id="doltFält" name="doltText" value="">
+        <button type="submit">Skicka</button>
+    </form>
+    <div id="utskrift" class="hidden"></div>
 </body>
 </html>
+
+<!-- pröva testa att skriva, tro mig det är sant att du kommer till israel -->

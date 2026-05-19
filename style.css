@@ -1,0 +1,24 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+}
+
+/*/ 
+    Helt ärligt så orkar jag faktiskt inte med att göra den snygg, den funkar och det är nog
+    vi behöver inte alla här i världen vara vackra för att ha en funktion. 
+    Modeller kan inte programmera och min kod kan inte modellera 
+/*/

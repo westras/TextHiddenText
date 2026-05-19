@@ -1,22 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const shown = document.getElementById('shown');
-    const hidden = document.getElementById('hidden');
-    
-    const body = document.body;
+    const formulär = document.getElementById('formulär');
+    const textomrade = document.getElementById('textomrade');
+    const doltFält = document.getElementById('doltFält');
+    const utskrift = document.getElementById('utskrift');
 
+    formulär.addEventListener('submit', function(event) {
+        event.preventDefault();
 
-     function hide(state) {
-        if (state === 'shown') {
-            body.classList.add('hidden');
-            body.classList.remove('shown');
-        } else {
-            body.classList.add('shown');
-            body.classList.remove('hidden');
+        const text = textomrade.value.trim();
+        if (!text) {
+            return;
         }
-        
-        
-        
-    }
 
+        doltFält.value = text;
+        textomrade.classList.remove('shown');
+        textomrade.classList.add('hidden');
 
+        utskrift.textContent = text;
+        utskrift.classList.remove('hidden');
+        utskrift.classList.add('shown');
+    });
 });
+
+/*/ jag tyckte förhidden lät roligt, så jag döpte javascript till det /*/
