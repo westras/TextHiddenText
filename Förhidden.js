@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const shown = document.getElementById('shown');
     const hidden = document.getElementById('hidden');
+    
     const body = document.body;
 
 
@@ -12,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
             body.classList.add('shown');
             body.classList.remove('hidden');
         }
+        
+        
+        
     }
 
 
